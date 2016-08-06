@@ -1,4 +1,6 @@
-// OAuth client controller
+/*------------------------------------------------
+  OAUTH CLIENT CONTROLLER
+------------------------------------------------*/
 
 // Load required packages
 var Client = require('../models/client');
