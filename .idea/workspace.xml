@@ -2,174 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62cef5e0-5f32-4ac0-8d29-864968e693a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/oauth2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/code.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/token.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/base64-url/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/base64-url/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/base64-url/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/base64-url/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc16.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc16_ccitt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc16_kermit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc16_modbus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc16_xmodem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc24.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc32.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc8.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/crc8_1wire.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/define_crc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/crc/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/Jakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/ejs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/ejs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/lib/ejs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/ejs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/backslash.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/backslash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/comments.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/comments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/consecutive-tags.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/consecutive-tags.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/double-quote.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/double-quote.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/error.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/error.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/fail.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/hello-world.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include-abspath.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include-root.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include-simple.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include-simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include.css.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include.css.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_cache.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_cache.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_preprocessor.css.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_preprocessor.css.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_preprocessor.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_preprocessor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_preprocessor_cache.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_preprocessor_cache.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_preprocessor_line_slurp.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_preprocessor_line_slurp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/include_preprocessor_line_slurp_child.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/includes/bom.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/includes/menu-item.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/includes/menu/item.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/literal.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/literal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/menu.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/menu_preprocessor.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/menu_preprocessor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/menu_var.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/messed.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/messed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/newlines.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/newlines.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/newlines.mixed.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/newlines.mixed.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/no.newlines.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/no.newlines.error.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/no.newlines.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/no.semicolons.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/no.semicolons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/para.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/pet.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/rmWhitespace.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/rmWhitespace.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/single-quote.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/single-quote.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/space-and-tab-slurp.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/space-and-tab-slurp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/strict.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/user-no-with.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/user.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/with-context.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/mocha.opts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/tmp/include.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/tmp/include_preprocessor.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ejs/test/tmp/renderFile.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/session/cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/session/memory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/session/session.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-session/session/store.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/errors/authorizationerror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/errors/badrequesterror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/errors/forbiddenerror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/errors/oauth2error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/errors/tokenerror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/exchange/authorizationCode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/exchange/clientCredentials.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/exchange/password.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/exchange/refreshToken.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/grant/code.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/grant/token.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/middleware/authorization.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/middleware/decision.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/middleware/errorHandler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/middleware/resume.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/middleware/token.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/middleware/transactionLoader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/response/fragment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/response/query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/txn/session.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/unorderedlist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/on-headers/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/on-headers/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/on-headers/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/on-headers/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/on-headers/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-http-bearer/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-http-bearer/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-http-bearer/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-http-bearer/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-http-bearer/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-http-bearer/lib/strategy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-http-bearer/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/random-bytes/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/random-bytes/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/random-bytes/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/random-bytes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/random-bytes/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uid-safe/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uid-safe/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uid-safe/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uid-safe/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uid-safe/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uid2/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uid2/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/uid2/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/dialog.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/auth.js" afterPath="$PROJECT_DIR$/controllers/auth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/client.js" afterPath="$PROJECT_DIR$/controllers/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="restAPI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -242,11 +75,14 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="document.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/document.js">
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider editor-type-id="MarkdownPreviewEditor">
+                <state />
+              </provider>
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="172">
-                  <caret line="1931" column="14" selection-start-line="1931" selection-start-column="14" selection-end-line="1931" selection-end-column="14" />
+                <state relative-caret-position="36">
+                  <caret line="2" column="89" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
                   <folding />
                 </state>
               </provider>
@@ -255,7 +91,7 @@
           <file leaf-file-name="oauth2.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/controllers/oauth2.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="609">
+                <state relative-caret-position="555">
                   <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
                   <folding />
                 </state>
@@ -325,6 +161,7 @@
         <option value="$PROJECT_DIR$/controllers/oauth2.js" />
         <option value="$PROJECT_DIR$/controllers/auth.js" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -527,12 +364,12 @@
       <workItem from="1470434822087" duration="265000" />
       <workItem from="1470435865086" duration="7216000" />
       <workItem from="1470452987199" duration="1235000" />
-      <workItem from="1470513123462" duration="6711000" />
+      <workItem from="1470513123462" duration="6929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15427000" />
+    <option name="totallyTimeSpent" value="15645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,7 +607,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/oauth2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
+        <state relative-caret-position="555">
           <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding />
         </state>
@@ -780,14 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="78" column="90" selection-start-line="78" selection-start-column="90" selection-end-line="78" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/dialog.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -804,6 +633,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="77" column="121" selection-start-line="77" selection-start-column="121" selection-end-line="77" selection-end-column="121" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/dialog.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="89" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
           <folding />
         </state>
       </provider>
