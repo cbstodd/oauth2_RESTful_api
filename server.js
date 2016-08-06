@@ -4,6 +4,9 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var courseController = require('./controllers/course');
 var userController = require('./controllers/users');
+var passport  = require('passport');
+var authController = require('./controllers/auth');
+
 mongoose.connect('mongodb://localhost:27017/noobsee');
 // TODO: localhost should be updated to production database
 
@@ -15,8 +18,8 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-// Use environment defined port or 3000
-var port = process.env.PORT || 3000;
+// Use the passport package
+app.use(passport.initialize());
 
 // Create our Express router
 var router = express.Router();
@@ -26,23 +29,28 @@ var router = express.Router();
  ----------------------------------------*/
 // Create endpoint handlers for /courses
 router.route('/courses')
-  .post(courseController.postCourses)
-  .get(courseController.getCourses);
+  .post(authController.isAuthenticated, courseController.postCourses)
+  .get(authController.isAuthenticated, courseController.getCourses);
 
 // Create endpoint handlers for /courses/:course_id
 router.route('/courses/:course_id')
-  .get(courseController.getCourse)
-  .put(courseController.putCourse)
-  .delete(courseController.deleteCourse);
+  .get(authController.isAuthenticated, courseController.getCourse)
+  .put(authController.isAuthenticated, courseController.putCourse)
+  .delete(authController.isAuthenticated, courseController.deleteCourse);
 
+// Create endpoint handlers for /users
 router.route('/users')
       .post(userController.postUsers)
-      .get(userController.getUsers); //TODO: Remove for production
+      .get(authController.isAuthenticated, userController.getUsers);
+//TODO: Remove /users GET for production
 /*----------------------------------------
    EXPRESS SERVER
 ----------------------------------------*/
 // Register all our routes with /api
 app.use('/api', router);
+
+// Use environment defined port or 3000
+var port = process.env.PORT || 3000;
 
 // Start the server
 app.listen(port);
