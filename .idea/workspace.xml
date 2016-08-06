@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62cef5e0-5f32-4ac0-8d29-864968e693a4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="restAPI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,8 +82,8 @@
                 <state />
               </provider>
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="36">
-                  <caret line="2" column="89" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
+                <state relative-caret-position="72">
+                  <caret line="4" column="87" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
                   <folding />
                 </state>
               </provider>
@@ -125,7 +126,7 @@
           <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/server.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
+                <state relative-caret-position="688">
                   <caret line="77" column="121" selection-start-line="77" selection-start-column="121" selection-end-line="77" selection-end-column="121" />
                   <folding />
                 </state>
@@ -364,12 +365,12 @@
       <workItem from="1470434822087" duration="265000" />
       <workItem from="1470435865086" duration="7216000" />
       <workItem from="1470452987199" duration="1235000" />
-      <workItem from="1470513123462" duration="6929000" />
+      <workItem from="1470513123462" duration="7527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15645000" />
+    <option name="totallyTimeSpent" value="16243000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -631,7 +632,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="688">
           <caret line="77" column="121" selection-start-line="77" selection-start-column="121" selection-end-line="77" selection-end-column="121" />
           <folding />
         </state>
@@ -650,8 +651,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="89" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
+        <state relative-caret-position="72">
+          <caret line="4" column="87" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
           <folding />
         </state>
       </provider>
