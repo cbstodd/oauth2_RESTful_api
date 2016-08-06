@@ -3,6 +3,7 @@ var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var courseController = require('./controllers/course');
+var userController = require('./controllers/users');
 mongoose.connect('mongodb://localhost:27017/noobsee');
 // TODO: localhost should be updated to production database
 
@@ -21,7 +22,7 @@ var port = process.env.PORT || 3000;
 var router = express.Router();
 
 /*----------------------------------------
- FROM: controllers/course.js ROUTES API
+ FROM: controllers/... ROUTES API
  ----------------------------------------*/
 // Create endpoint handlers for /courses
 router.route('/courses')
@@ -34,8 +35,9 @@ router.route('/courses/:course_id')
   .put(courseController.putCourse)
   .delete(courseController.deleteCourse);
 
-
-
+router.route('/users')
+      .post(userController.postUsers)
+      .get(userController.getUsers); //TODO: Remove for production
 /*----------------------------------------
    EXPRESS SERVER
 ----------------------------------------*/
@@ -44,5 +46,5 @@ app.use('/api', router);
 
 // Start the server
 app.listen(port);
-console.log('$$$ Express listening on http://localhost' + port + ' $$$');
+console.log('###= Express listening on http://localhost' + port + ' =###');
 //Run node inspector: node-debug server.js
