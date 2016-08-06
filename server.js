@@ -4,6 +4,7 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var courseController = require('./controllers/course');
 var userController = require('./controllers/users');
+var clientController = require('./controllers/client');
 var passport  = require('passport');
 var authController = require('./controllers/auth');
 
@@ -43,6 +44,12 @@ router.route('/users')
       .post(userController.postUsers)
       .get(authController.isAuthenticated, userController.getUsers);
 //TODO: Remove /users GET for production
+
+// Create endpoint handlers for /clients
+router.route('/clients')
+      .post(authController.isAuthenticated, clientController.postClients)
+      .get(authController.isAuthenticated, clientController.getClients);
+
 /*----------------------------------------
    EXPRESS SERVER
 ----------------------------------------*/
